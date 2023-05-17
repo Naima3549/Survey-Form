@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Survey Form</title>
+    <!--- css file link--->
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    </div>
+    <div class="container"
+    <header class="header">
+        <h1 id="title"> 
+            Survey from THE HUB
+        </h1>
+        <p id="description">
+           Thank you for taking your time to help review the services offered. 
+        </p>
+</header>
+<form action="" id="survey-form">
+<!--Text section  -->
+<div class="form-group">
+    <label for="name">Name</label>
+    <input type="text"
+    name="name" id="name"
+    class="formcontrol"
+    placeholder="Enter your First name "required>
+    <label for="name"></label>
+    <input type="text"
+    name="name" id="name"
+    class="formcontrol"
+    placeholder="Enter your last name"required>
+    </div>
+<!-- end of text section -->
+
+<!-- Type email section  -->
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email"
+    name="email" id="email"
+    class="formcontrol"
+    placeholder="Enter your email"required>
+
+</div>
+<!-- end of type email section  -->
+
+<!-- Type number section -->
+<div class="form-group">
+    <label for="phone">Telephone</label>
+    <input type="number"
+    name="phone" id="phone"
+    class="formcontrol"
+    placeholder="Enter your phone "required>
+</div>
+   <!--end of number section -->
+   
+   <!--Type age-->
+   <div class="form-group">
+    <label for="Age">Age</label>
+    <input type="Age"
+    name="Age" id="Age"
+    class="formcontrol"
+    placeholder="Enter your Age"required>
+</div>
+ <!--end of age section -->
+   
+<!--Adress section -->
+   <div class="form-group">
+    <label for="address">Adress</label>
+    <input type="text"
+    name="adress" id="adress"
+    class="formcontrol"
+    placeholder="Enter your address" requires>
+</div>
+    <!--end of adress section -->
+    
+    <!--select session -->
+    <div class="form-group"
+    <p id="quest">Which option best describes your current role?</p>
+    <select name="role" 
+    id="dropdown"
+    class="formControl" required>
+<option value=""disabled selected>select current role</option>
+<option value="student"></option>
+<option value="teacher"> Teacher</option>
+<option value="job">Job</option>
+<option value="other">Other</option>
+</select>
+</div>
+<!--end of select section -->
+
+<!--radio button section -->
+<div class="form group">
+    <p id="quest">How did you come to know about THE HUB</p>
+    <label for="">
+        <input type="radio"
+        name="source"
+        value="friends"
+        class="inputRadio"
+        checked>friends
+         </label>
+         <label for="">
+            <input type="radio"
+            name="source"
+            value="tv-ads"
+            class="inputRadio"
+            checked>TV
+             </label>
+             <label for="">
+                <input type="radio"
+                name="source"
+                value="Social-media"
+                class="inputradio"
+                checked>Social media
+                 </label>
+                 <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="newspapers"
+                    class="inputRadio"
+                    checked>Newspapers
+                     </label>
+                     <label for="">
+                        <input type="radio"
+                        name="source"
+                        value="other"
+                        class="inputRadio"
+                        checked>other
+                         </label>
+</div>
+
+<!--end of radio button section -->
+
+<!--Checkbox section-->
+<div class="form-group">
+    <p id="quest"> Where Would you like to see improvement</p>
+    <label for="">
+        <input type="checkbox"
+        name="prefer"
+        class="checkbox"
+        value="back-end-dev">Back-end Developer
+    </label>
+    <label for="">
+        <input type="checkbox"
+        name="prefer"
+        class="checkbox"
+        value="front-end-dev">front-end Developer
+    </label>
+    <label for="">
+        <input type="checkbox"
+        name="prefer"
+        class="checkbox"
+        value="app-dev"> Android App Developer
+    </label>
+    <label for="">
+        <input type="checkbox"
+        name="prefer"
+        class="checkbox"
+        value="soft-engineering">Software soft-engineering
+        </label>
+        <label for="">
+            <input type="checkbox"
+            name="prefer"
+            class="checkbox"
+            value="other">other
+        </label>
+    </div>
+<!--end of checkbox section -->
+<!--Textarea section -->
+<div class="form-group"></div>
+<p id="quest"> Give us your feedback</p>
+<textarea name="feedback"
+id="feedback" cols="35" rows="5" class-="textarea" placeholder="Enter your feedback here......">
+</textarea>
+</label>
+<!--end of textarea section -->
+
+<!---submit button -->
+<div class="form-group">
+    <button type="submit"
+    id="submit"
+    class="btn">submit </button>
+</div>
+</form>
+</body>
+</html>
